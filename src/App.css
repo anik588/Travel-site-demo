@@ -1,0 +1,252 @@
+
+
+
+nav{
+  display: flex;
+  float: left;
+  height: 2rem;
+  padding: 10px;
+  width: 100%;
+  padding-top: 10px;
+}
+nav svg{
+  display: flex;
+  height: 2rem;
+  width: 70%;
+ 
+}
+
+.button-top{
+  background: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  align-items: left;
+  justify-content: left;
+}
+.button-top:focus,
+.button-top:active{
+  text-decoration: underline ;
+  text-decoration-color:#8dd3bb;
+  text-decoration-thickness: 5px;
+}
+.button-login{
+  background: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-right: 5px;
+
+}
+
+.button-login:active{
+  transform: scale(1.15);
+}
+.button-signup{
+  background: transparent;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-right: 5px;
+  color: white;
+  background-color: black;
+  
+  }
+
+.button-signup:active{
+  transform: scale(1.15);
+}
+.home-pic-1{
+  padding: 30px;
+  
+}
+.home-pic-1 img {
+  display: block;
+  box-sizing: border-box;
+  border: none; /* Remove the border property */
+  border-radius: 2rem;
+  padding: 0; /* Remove the padding property */
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+/* CSS */
+.home-1 {
+  display: block;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+  border: transparent;
+  cursor: pointer;
+  
+}
+
+.home-icon-1{
+  margin-left: 60px;
+}
+/* Home2.css */
+/* Apply a dynamic max width to the container based on content */
+.superdivs {
+  margin-left: 7.5%;
+  padding: 10px;
+  width: 85%;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 8px #dbe9e6;
+  /* Default row layout */
+  flex-wrap: wrap; /* Allow divs to wrap to the next row */
+  position: relative;
+  top: -100px;
+  background-color: white;
+}
+.superdivs form{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.containers {
+   /* Adjusts to the widest content inside */
+  justify-content: center;
+  padding: 3px; /* Add padding to the container */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: Solid 1px gray;
+  margin: 5px;
+
+  flex: 1; /* Distribute available space evenly */
+  min-width: calc(min-content - 40px); /* Adjust as needed */
+  box-sizing: border-box;
+}
+
+.title{
+  
+  max-width: max-content;
+  top: -10px;
+  
+  left: 20px;
+  background-color: red;
+  position: relative;
+  padding-left: 3px;
+  padding-right: 3px;
+  
+}
+
+
+/* Target the input directly within .below-container */
+.containers input{
+  
+  max-width: 100px;/* Set a fixed width for the input box */
+  /* Add padding to the input box */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+  
+}
+
+
+@media (max-width: 768px) {
+  .superdivs {
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center align child divs */
+  }
+  
+  .containers {
+    min-width: 100%; /* Take up full width */
+  }
+}
+
+  /* home2-js--end */ 
+
+ .reviewboxs{
+  display: flex-start;
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10xp #8dd3bb;
+  margin: 10px;
+  background-color: red;
+  height: 300px;
+  padding: 20px;
+  
+ }
+ .reviewboxs img{
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+ }
+
+.review-divs{
+  display: block;
+  background-color: #FFA500;
+  width: 100%;
+  float: left;
+  
+}
+.empty-div-1{
+  width: 100%;
+  height: 150px;
+  background-color: #FFA500
+}
+/* Flights-js--Start */
+.filter{
+  width: 30%;
+}
+.filter label{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 10xp #eb0981;
+  display: flex;
+  float: left;
+  background-color: #eb0981;
+  padding: 10px;
+  margin: 10px;
+}
+.flight-result{
+  width: 69%;
+  
+}
+/* Flights-js--end */
+.footer-wrapper{
+  background-color:#8dd3bb ;
+}
+.footer-wrapper {
+  margin: 3rem 0rem;
+  display: flex;
+  margin-top: 10rem;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer-logo-container {
+  max-width: 110px;
+}
+.footer-icons {
+  margin-top: 2.5rem;
+}
+.footer-icons svg {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+  color: #585858;
+}
+/* .footer-section-one {
+  border: 2px solid blue;
+} */
+.footer-section-two {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-section-columns {
+  display: flex;
+  flex-direction: column;
+  min-width: 190px;
+}
+.footer-section-columns span {
+  margin: 0.25rem 0rem;
+  font-weight: 600;
+  color: #FFA500;
+  cursor: pointer;
+}
